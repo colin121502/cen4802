@@ -1,5 +1,9 @@
 public class Fibonacci {
-
+    /**
+     * A recursive method to calculate the nth term of the Fibonacci sequence.
+     * @param n the term of the Fibonacci sequence to calculate
+     * @return the nth Fibonacci number
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
